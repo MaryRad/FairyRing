@@ -209,8 +209,5 @@ Instead of taking the small yellow mushroom:
 
 An every turn rule:
 if the score is 4,
-	say "The ring of mushrooms shimmers with a mystical white aura as the surrounding fog slowly dissipates. As the fog clears, you find yourself once again within the mushroom circle in your backyard."
+	end the story finally saying "The ring of mushrooms shimmers with a mystical white aura as the surrounding fog slowly dissipates. As the fog clears, you find yourself once again within the mushroom circle in your backyard.".
 
-An every turn rule:
-if the score is 4,
-end the game in victory.
