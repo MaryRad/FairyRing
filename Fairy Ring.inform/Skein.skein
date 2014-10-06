@@ -1,0 +1,2772 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x3a5c10" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x3a5c10" />
+  <item nodeId="node-0x3a5c10">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+You wake up, dazed, in what appears to be a shady forest. A thick blanket of fog slowly rolls in from all directions, restricting your vision for more than around twenty feet in any direction. You struggle to recall how you ended up in this forest, but all you can remember is stepping into a curious circle of mushrooms in your backyard before waking up here. Maybe you should look around for that mushroom ring...
+
+You gather your courage and slowly stand up.
+
+Fairy Ring
+An Interactive Fiction by Austin Gill
+Release 1 / Serial number 110921 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It looks like there are some firm branches you could use to climb it. The forest appears to continue both to the east and to the west.
+
+Below the towering tree lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">NO</temporary>
+    <children>
+      <child nodeId="node-0x3a5c60" />
+      <child nodeId="node-0x2128a0" />
+      <child nodeId="node-0x210290" />
+      <child nodeId="node-0x20f730" />
+      <child nodeId="node-0x20f6c0" />
+      <child nodeId="node-0x20e0a0" />
+      <child nodeId="node-0x2130f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2130f0">
+    <command xml:space="preserve">climb</command>
+    <result xml:space="preserve">What do you want to climb?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="423">YES</temporary>
+    <children>
+      <child nodeId="node-0x213160" />
+    </children>
+  </item>
+  <item nodeId="node-0x213160">
+    <command xml:space="preserve">tree</command>
+    <result xml:space="preserve">compass (5) 
+  the north
+  the northeast
+  the northwest
+  the south
+  the southeast
+  the southwest
+  the east
+  the west
+  the up
+  the down
+  the inside
+  the outside
+(LibraryMessages) (6) 
+(darkness object) (7) 
+(Inform Parser) (8) 
+(Inform Library) (9) 
+(property_numberspace_forcer) (10) 
+(ValuePropertyHolder_39) (12) 
+Foggy Clearing (42) 
+  yourself
+  white fog
+  a ring of mushrooms
+  grass
+  a pile of leaves
+  a filing cabinet (closed and locked)
+  a towering tree
+Top of Towering Tree (49) 
+  a thin branch
+  a crooked branch
+  tree tops
+  thick fog
+small blue mushroom (54) 
+Quiet Thicket (55) 
+  a squirrel
+  damp grass
+  willow trees
+  edge of the river
+  a dark cave
+  tranquil river
+  distant waterfall
+  a hollow fallen oak tree
+    a small red mushroom
+Spooky Cave (65) 
+  scattered grains of sand
+  creepy river
+  large rocky outcrop
+  jagged rock
+  a pool of water
+small green mushroom (71) 
+Beneath The Rainbow (72) 
+  boys river
+  lolol rainbow
+  omgz waterfall
+  mist
+  eagles
+small yellow mushroom (78) 
+Whistling Grove (79) 
+  a weird trees
+  a pile of twigs
+  a strange indent
+  a largest tree
+bright marble (84) 
+acorn (85) 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="423">YES</temporary>
+    <children>
+      <child nodeId="node-0x2134e0" />
+      <child nodeId="node-0x2131d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2131d0">
+    <command xml:space="preserve">climb tree</command>
+    <result xml:space="preserve">
+Top of Towering Tree
+You teeter precariously on a thin branch at the top of the towering tree. Despite how high you are, you can&apos;t see much else besides other tree tops through the thick fog. To the left of you is a crooked branch just barely within arm&apos;s reach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="253">YES</temporary>
+    <children>
+      <child nodeId="node-0x213240" />
+    </children>
+  </item>
+  <item nodeId="node-0x213240">
+    <command xml:space="preserve">examine crooked branch</command>
+    <result xml:space="preserve">A small, crooked tree branch. On its end grows a small blue mushroom. How peculiar.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="253">YES</temporary>
+    <children>
+      <child nodeId="node-0x2132b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2132b0">
+    <command xml:space="preserve">take mushroom</command>
+    <result xml:space="preserve">Oops. The mushroom just barely slips out of your grasp, falling gently through the fog and out of sight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="253">YES</temporary>
+    <children>
+      <child nodeId="node-0x213320" />
+    </children>
+  </item>
+  <item nodeId="node-0x213320">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="253">YES</temporary>
+    <children>
+      <child nodeId="node-0x213390" />
+    </children>
+  </item>
+  <item nodeId="node-0x213390">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="253">YES</temporary>
+    <children>
+      <child nodeId="node-0x213400" />
+    </children>
+  </item>
+  <item nodeId="node-0x213400">
+    <command xml:space="preserve">x pile of leaves</command>
+    <result xml:space="preserve">A pile of nondescript leaves.
+
+In the pile of leaves is a blue mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="253">YES</temporary>
+    <children>
+      <child nodeId="node-0x213470" />
+    </children>
+  </item>
+  <item nodeId="node-0x213470">
+    <command xml:space="preserve">take blue mushroom</command>
+    <result xml:space="preserve"> Taken.
+
+The blue mushroom reminds you of the mushroom ring you saw in your backyard before ending up in this forest. Perhaps there&apos;s a connection?
+
+
+
+    *** You have won ***
+
+
+In that game you scored 0 out of a possible 0, in 7 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="252">YES</temporary>
+  </item>
+  <item nodeId="node-0x2134e0">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="423">YES</temporary>
+    <children>
+      <child nodeId="node-0x213550" />
+    </children>
+  </item>
+  <item nodeId="node-0x213550">
+    <command xml:space="preserve">yes</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="422">YES</temporary>
+  </item>
+  <item nodeId="node-0x20e0a0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e730" />
+      <child nodeId="node-0x20e500" />
+      <child nodeId="node-0x20e0f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e0f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Beneath The Rainbow
+You walk along the river to be met with a glorious rainbow at the edge of the waterfall. It shimmers with cool mist from the crashing waterfall.
+
+You can see eagles here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e160" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e160">
+    <command xml:space="preserve">x eagles</command>
+    <result xml:space="preserve">These majestic birds fly through the fine mist of the waterfall. A large black eagle appears to be carrying a small yellow object. Perhaps you should whistle at the eagle to get its attention?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e250" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e250">
+    <command xml:space="preserve">whistle to eagle</command>
+    <result xml:space="preserve">The black eagle floats leisurely towards you, letting out a friendly screech before carefully dropping a small yellow mushroom in your outstretched palm.
+
+You place the small yellow mushroom in your bag.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e2a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e2f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e2f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e360" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e360">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e3d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e3d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0x20e500">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Beneath The Rainbow
+You walk along the river to be met with a glorious rainbow at the edge of the waterfall. It shimmers with cool mist from the crashing waterfall. Majestic eagles can be seen flying nearby.
+
+You can see eagles here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e1f0">
+    <command xml:space="preserve">take eagles</command>
+    <result xml:space="preserve">I don&apos;t suppose eagles would care for that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e570" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e570">
+    <command xml:space="preserve">talk eagles</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e5e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e5e0">
+    <command xml:space="preserve">talk to eagles</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e650" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e650">
+    <command xml:space="preserve">give mushroom to eagles</command>
+    <result xml:space="preserve">(first taking eagles)
+I don&apos;t suppose eagles would care for that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e6c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e6c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="321">YES</temporary>
+  </item>
+  <item nodeId="node-0x20e730">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e810" />
+      <child nodeId="node-0x20e7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e7a0">
+    <command xml:space="preserve">swim</command>
+    <result xml:space="preserve">You get into the pool of water.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e440" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e440">
+    <command xml:space="preserve">examine rocky outcrop</command>
+    <result xml:space="preserve">Many large boulders lie here at the bottom of the shallow pool. One jagged rock in particular stands out. You could probably push it aside.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e490" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e490">
+    <command xml:space="preserve">examine rocky outcrop</command>
+    <result xml:space="preserve">Many large boulders lie here at the bottom of the shallow pool. One jagged rock in particular stands out. You could probably push it aside.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e990" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e990">
+    <command xml:space="preserve">push jagged rock</command>
+    <result xml:space="preserve">With great effort, you push the jagged rock over in the water, revealing the small green mushroom beneath it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x20ea00" />
+    </children>
+  </item>
+  <item nodeId="node-0x20ea00">
+    <command xml:space="preserve">examine pool of water</command>
+    <result xml:space="preserve">Chilly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x20ea70" />
+    </children>
+  </item>
+  <item nodeId="node-0x20ea70">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Spooky Cave (in the pool of water)
+The radiance of your glowing bauble lights the abysmal cave. The cave emits the soft crunches of your footsteps as you walk across some scattered grains of sand. The river appears to originate from a large rocky outcrop at the bottom of a shallow pool of water.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x20eae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20eae0">
+    <command xml:space="preserve">take small green mushroom</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x20eb50" />
+    </children>
+  </item>
+  <item nodeId="node-0x20eb50">
+    <command xml:space="preserve">get out</command>
+    <result xml:space="preserve">You get out of the pool of water.
+
+Spooky Cave
+The radiance of your glowing bauble lights the abysmal cave. The cave emits the soft crunches of your footsteps as you walk across some scattered grains of sand. The river appears to originate from a large rocky outcrop at the bottom of a shallow pool of water.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x20ebc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20ebc0">
+    <command xml:space="preserve">x outcrop</command>
+    <result xml:space="preserve">Many large boulders lie here at the bottom of the shallow pool. One jagged rock in particular stands out. You could probably push it aside.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x20ec30" />
+    </children>
+  </item>
+  <item nodeId="node-0x20ec30">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x20eca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20eca0">
+    <command xml:space="preserve">x fallen oak</command>
+    <result xml:space="preserve">In the hollow fallen oak tree is a small red mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x20ed10" />
+    </children>
+  </item>
+  <item nodeId="node-0x20ed10">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. The forest appears to continue both east and west. There is a towering tree in the middle of the clearing. It seems almost mystical by nature.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x20ed80" />
+    </children>
+  </item>
+  <item nodeId="node-0x20ed80">
+    <command xml:space="preserve">x leaves</command>
+    <result xml:space="preserve">A pile of nondescript leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x20edf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20edf0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a small green mushroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="314">YES</temporary>
+  </item>
+  <item nodeId="node-0x20e810">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e880" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e880">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. The forest appears to continue both east and west. There is a towering tree in the middle of the clearing. It seems almost mystical by nature.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e8f0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Whistling Grove
+Odd trees with crescent-shaped trunks fill the grove. A small pile of twigs lies at the foot of one of the trees. There also appears to be a strange indent carved into the largest tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f0a0">
+    <command xml:space="preserve">take bright marble</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f110" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f110">
+    <command xml:space="preserve">x strange indent</command>
+    <result xml:space="preserve">A small hole carved into the side of the largest tree.
+
+You also see an intense light emanating from a bright marble within the indent.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f180" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f180">
+    <command xml:space="preserve">take bright marble</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f1f0">
+    <command xml:space="preserve">x strange indent</command>
+    <result xml:space="preserve">A small hole carved into the side of the largest tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f260" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f260">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. The forest appears to continue both east and west. There is a towering tree in the middle of the clearing. It seems almost mystical by nature.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f2d0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f340" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f340">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Spooky Cave
+The radiance of your glowing marble lights the abysmal cave. The cave emits the soft crunches of your footsteps as you walk across some scattered grains of sand. The river appears to originate from a large rocky outcrop at the bottom of a shallow pool of water.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f3b0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f420" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f420">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. The forest appears to continue both east and west. There is a towering tree in the middle of the clearing. It seems almost mystical by nature.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f490" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f490">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Whistling Grove
+Odd trees with crescent-shaped trunks fill the grove. A small pile of twigs lies at the foot of one of the trees. There also appears to be a strange indent carved into the largest tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f500" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f500">
+    <command xml:space="preserve">x pile of twigs</command>
+    <result xml:space="preserve">At first glance, simply a pile of twigs.
+
+In the pile of twigs you find an acorn. You take it for safekeeping.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f570" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f570">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. The forest appears to continue both east and west. There is a towering tree in the middle of the clearing. It seems almost mystical by nature.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f5e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f5e0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="376">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f650" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f650">
+    <command xml:space="preserve">give acorn to squirrel</command>
+    <result xml:space="preserve">The squirrel doesn&apos;t seem interested.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="375">YES</temporary>
+  </item>
+  <item nodeId="node-0x20f6c0">
+    <command xml:space="preserve">x grass</command>
+    <result xml:space="preserve">It&apos;s grass. What did you expect?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="776">YES</temporary>
+  </item>
+  <item nodeId="node-0x20f730">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Whistling Grove
+Odd trees with crescent-shaped trunks fill the grove. A small pile of twigs lies at the foot of one of the trees. There also appears to be a strange indent carved into the largest tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="139">YES</temporary>
+    <children>
+      <child nodeId="node-0x20ee60" />
+      <child nodeId="node-0x20f7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f7a0">
+    <command xml:space="preserve">climb tree</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="138">YES</temporary>
+  </item>
+  <item nodeId="node-0x20ee60">
+    <command xml:space="preserve">x pile</command>
+    <result xml:space="preserve">At first glance, simply a pile of twigs.
+
+In the pile of twigs you find an acorn. You take it for safekeeping.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20eed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20eed0">
+    <command xml:space="preserve">x indent</command>
+    <result xml:space="preserve">A small hole carved into the side of the largest tree.
+
+You also see an intense light emanating from a bright marble within the indent.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20ef40" />
+    </children>
+  </item>
+  <item nodeId="node-0x20ef40">
+    <command xml:space="preserve">take bright marble</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20efb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20efb0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f020" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f020">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f810" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f810">
+    <command xml:space="preserve">give acorn to squirrel</command>
+    <result xml:space="preserve">The fuzzy squirrel snatches the acorn from your hand and eagerly stuffs it into its cheek. It darts quickly into the fallen oak tree nearby and returns seconds later with a small red mushroom.
+
+You take the small red mushroom from the squirrel and gently pat it on the head.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f880" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f880">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Spooky Cave
+The radiance of your glowing marble lights the abysmal cave. The cave emits the soft crunches of your footsteps as you walk across some scattered grains of sand. The river appears to originate from a large rocky outcrop at the bottom of a shallow pool of water.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f8f0">
+    <command xml:space="preserve">push jagged rock</command>
+    <result xml:space="preserve">With great effort, you push the jagged rock over in the water, revealing the small green mushroom beneath it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f960" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f960">
+    <command xml:space="preserve">take mushroom</command>
+    <result xml:space="preserve">(the small green mushroom)
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20f9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20f9d0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20fa40" />
+    </children>
+  </item>
+  <item nodeId="node-0x20fa40">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Beneath The Rainbow
+You walk along the river to be met with a glorious rainbow at the edge of the waterfall. It shimmers with cool mist from the crashing waterfall.
+
+You can see eagles here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20fab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20fab0">
+    <command xml:space="preserve">whistle eagles</command>
+    <result xml:space="preserve">The black eagle floats leisurely towards you, letting out a friendly screech before carefully dropping a small yellow mushroom in your outstretched palm.
+
+You place the small yellow mushroom in your bag.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20fb20" />
+    </children>
+  </item>
+  <item nodeId="node-0x20fb20">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20fb90" />
+    </children>
+  </item>
+  <item nodeId="node-0x20fb90">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20fc00" />
+    </children>
+  </item>
+  <item nodeId="node-0x20fc00">
+    <command xml:space="preserve">put mushrooms in mushroom ring</command>
+    <result xml:space="preserve">You should probably try to put them in one by one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20fc70" />
+    </children>
+  </item>
+  <item nodeId="node-0x20fc70">
+    <command xml:space="preserve">put mushroom in mushroom ring</command>
+    <result xml:space="preserve">Which do you mean, the small yellow mushroom, the small green mushroom, the small red mushroom or the ring of mushrooms?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20fce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20fce0">
+    <command xml:space="preserve">yellow</command>
+    <result xml:space="preserve">You put the small yellow mushroom into the ring of mushrooms.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20fd50" />
+    </children>
+  </item>
+  <item nodeId="node-0x20fd50">
+    <command xml:space="preserve">put mushroom in mushroom ring</command>
+    <result xml:space="preserve">Which do you mean, the small green mushroom, the small red mushroom, the ring of mushrooms or the small yellow mushroom?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20fdc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20fdc0">
+    <command xml:space="preserve">red</command>
+    <result xml:space="preserve">You put the small red mushroom into the ring of mushrooms.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20fe30" />
+    </children>
+  </item>
+  <item nodeId="node-0x20fe30">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Top of Towering Tree
+You teeter precariously on a thin branch at the top of the towering tree. Despite how high you are, you can&apos;t see much else besides other tree tops through the thick fog.
+
+To the left of you is a crooked branch just barely within arm&apos;s reach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20fea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20fea0">
+    <command xml:space="preserve">x crooked</command>
+    <result xml:space="preserve">A small, crooked tree branch. On its end grows a small blue mushroom. How peculiar.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20ff10" />
+    </children>
+  </item>
+  <item nodeId="node-0x20ff10">
+    <command xml:space="preserve">take mushroom</command>
+    <result xml:space="preserve">(the small blue mushroom)
+Oops. The mushroom just barely slips out of your grasp, falling gently through the fog and out of sight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20ff80" />
+    </children>
+  </item>
+  <item nodeId="node-0x20ff80">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x20fff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20fff0">
+    <command xml:space="preserve">x pile</command>
+    <result xml:space="preserve">A pile of nondescript leaves.
+
+In the pile of leaves is a small blue mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x210060" />
+    </children>
+  </item>
+  <item nodeId="node-0x210060">
+    <command xml:space="preserve">take mushroom</command>
+    <result xml:space="preserve">Which do you mean, the ring of mushrooms, the small red mushroom, the small yellow mushroom, the small blue mushroom or the small green mushroom?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x2100d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2100d0">
+    <command xml:space="preserve">blue</command>
+    <result xml:space="preserve"> Taken.
+
+The blue mushroom reminds you of the mushroom ring you saw in your backyard before ending up in this forest. Perhaps there&apos;s a connection?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x210140" />
+    </children>
+  </item>
+  <item nodeId="node-0x210140">
+    <command xml:space="preserve">put blue mushroom in ring of mushrooms</command>
+    <result xml:space="preserve">You put the small blue mushroom into the ring of mushrooms.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x2101b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2101b0">
+    <command xml:space="preserve">x ring of mushrooms</command>
+    <result xml:space="preserve">The mushrooms on the grass are growing in an uncanny circle. They appear to follow some sort of color pattern. It seems that the mushroom ring needs a blue, red, green, and yellow mushroom to be complete. If you find any mushrooms, you should probably put them in the ring.
+
+In the ring of mushrooms are a small blue mushroom, a small red mushroom and a small yellow mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0x210220" />
+    </children>
+  </item>
+  <item nodeId="node-0x210220">
+    <command xml:space="preserve">put green mushroom in ring of mushrooms</command>
+    <result xml:space="preserve">You put the small green mushroom into the ring of mushrooms.
+
+The ring of mushrooms shimmers with a mystical white aura as the surrounding fog slowly dissipates. As the fog clears, you find yourself once again within the mushroom circle in your backyard.
+
+
+
+    *** You have won ***
+
+
+In that game you scored 4 out of a possible 0, in 27 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+  </item>
+  <item nodeId="node-0x210290">
+    <command xml:space="preserve">examine leaves</command>
+    <result xml:space="preserve">A pile of nondescript leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210300" />
+    </children>
+  </item>
+  <item nodeId="node-0x210300">
+    <command xml:space="preserve">examine mushrooms</command>
+    <result xml:space="preserve">The mushrooms on the grass are growing in an uncanny circle. They appear to follow some sort of color pattern. It seems that the mushroom ring needs a blue, red, green, and yellow mushroom to be complete. If you find any mushrooms, you should probably put them in the ring.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210370" />
+    </children>
+  </item>
+  <item nodeId="node-0x210370">
+    <command xml:space="preserve">walk east</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2103e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2103e0">
+    <command xml:space="preserve">examine oak tree</command>
+    <result xml:space="preserve">In the hollow fallen oak tree is a small red mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210450" />
+    </children>
+  </item>
+  <item nodeId="node-0x210450">
+    <command xml:space="preserve">examine mushroom</command>
+    <result xml:space="preserve">A vibrant red mushroom. It resonates with a warm glow.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2104c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2104c0">
+    <command xml:space="preserve">take mushroom</command>
+    <result xml:space="preserve">You try to squeeze your arm through the hole in the fallen oak tree, but fail to reach the mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210530" />
+    </children>
+  </item>
+  <item nodeId="node-0x210530">
+    <command xml:space="preserve">examine squirrel</command>
+    <result xml:space="preserve">The fuzzy squirrel seems very interested in you. It rubs its stomach tirelessly. Maybe it&apos;s hungry?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2105a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2105a0">
+    <command xml:space="preserve">talk to squirrel</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210610" />
+    </children>
+  </item>
+  <item nodeId="node-0x210610">
+    <command xml:space="preserve">take squirrel</command>
+    <result xml:space="preserve">I don&apos;t suppose the squirrel would care for that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210680" />
+    </children>
+  </item>
+  <item nodeId="node-0x210680">
+    <command xml:space="preserve">walk north</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2106f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2106f0">
+    <command xml:space="preserve">walk south</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210760" />
+    </children>
+  </item>
+  <item nodeId="node-0x210760">
+    <command xml:space="preserve">walk south</command>
+    <result xml:space="preserve">
+Beneath The Rainbow
+You walk along the river to be met with a glorious rainbow at the edge of the waterfall. It shimmers with cool mist from the crashing waterfall.
+
+You can see eagles here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2107d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2107d0">
+    <command xml:space="preserve">examine rainbow</command>
+    <result xml:space="preserve">A magnificent rainbow shines in the sky above you. It&apos;s definitely a nice change of pace from the melancholy fog.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210840" />
+    </children>
+  </item>
+  <item nodeId="node-0x210840">
+    <command xml:space="preserve">examine eagles</command>
+    <result xml:space="preserve">These majestic birds fly through the fine mist of the waterfall. A large black eagle appears to be carrying a small yellow object. Perhaps you should whistle at the eagle to get its attention?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2108b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2108b0">
+    <command xml:space="preserve">whistle at eagle</command>
+    <result xml:space="preserve">The black eagle floats leisurely towards you, letting out a friendly screech before carefully dropping a small yellow mushroom in your outstretched palm.
+
+You place the small yellow mushroom in your bag.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210920" />
+    </children>
+  </item>
+  <item nodeId="node-0x210920">
+    <command xml:space="preserve">examine yellow mushroom</command>
+    <result xml:space="preserve">(the small yellow mushroom)
+A small yellow mushroom. It shines with a light reminiscent of the rainbow it honored.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210990" />
+    </children>
+  </item>
+  <item nodeId="node-0x210990">
+    <command xml:space="preserve">take mushroom</command>
+    <result xml:space="preserve">(eagles)
+I don&apos;t suppose eagles would care for that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x210a00">
+    <command xml:space="preserve">walk north</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x210a70">
+    <command xml:space="preserve">walk west</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x210ae0">
+    <command xml:space="preserve">walk west</command>
+    <result xml:space="preserve">
+Whistling Grove
+Odd trees with crescent-shaped trunks fill the grove. A small pile of twigs lies at the foot of one of the trees. There also appears to be a strange indent carved into the largest tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x210b50">
+    <command xml:space="preserve">examine pile</command>
+    <result xml:space="preserve">At first glance, simply a pile of twigs.
+
+In the pile of twigs you find an acorn. You take it for safekeeping.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210bc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x210bc0">
+    <command xml:space="preserve">take acorn</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210c30" />
+    </children>
+  </item>
+  <item nodeId="node-0x210c30">
+    <command xml:space="preserve">examine largest tree</command>
+    <result xml:space="preserve">A tree, shaped like a lunar crescent. This one is definitely the biggest of the bunch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x210ca0">
+    <command xml:space="preserve">examine indent</command>
+    <result xml:space="preserve">A small hole carved into the side of the largest tree.
+
+You also see an intense light emanating from a bright marble within the indent.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x210d10">
+    <command xml:space="preserve">walk west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210d80" />
+    </children>
+  </item>
+  <item nodeId="node-0x210d80">
+    <command xml:space="preserve">examine light</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210df0" />
+    </children>
+  </item>
+  <item nodeId="node-0x210df0">
+    <command xml:space="preserve">look inside hole</command>
+    <result xml:space="preserve">In the strange indent is a bright marble.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x210e60">
+    <command xml:space="preserve">examine marble</command>
+    <result xml:space="preserve">You can barely look at the shining marble for more than a few seconds before averting your eyes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x210ed0">
+    <command xml:space="preserve">take marble</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x210f40">
+    <command xml:space="preserve">walk east</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x210fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x210fb0">
+    <command xml:space="preserve">walk east</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211020" />
+    </children>
+  </item>
+  <item nodeId="node-0x211020">
+    <command xml:space="preserve">walk west</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211090" />
+    </children>
+  </item>
+  <item nodeId="node-0x211090">
+    <command xml:space="preserve">examine mushroom</command>
+    <result xml:space="preserve">(the small yellow mushroom)
+A small yellow mushroom. It shines with a light reminiscent of the rainbow it honored.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211100" />
+    </children>
+  </item>
+  <item nodeId="node-0x211100">
+    <command xml:space="preserve">examine ring</command>
+    <result xml:space="preserve">The mushrooms on the grass are growing in an uncanny circle. They appear to follow some sort of color pattern. It seems that the mushroom ring needs a blue, red, green, and yellow mushroom to be complete. If you find any mushrooms, you should probably put them in the ring.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211170" />
+    </children>
+  </item>
+  <item nodeId="node-0x211170">
+    <command xml:space="preserve">take mushroom</command>
+    <result xml:space="preserve">(the small yellow mushroom)
+You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2111e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2111e0">
+    <command xml:space="preserve">examine pile</command>
+    <result xml:space="preserve">A pile of nondescript leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211250" />
+    </children>
+  </item>
+  <item nodeId="node-0x211250">
+    <command xml:space="preserve">walk east</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2112c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2112c0">
+    <command xml:space="preserve">examine oak tree</command>
+    <result xml:space="preserve">In the hollow fallen oak tree is a small red mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211330" />
+    </children>
+  </item>
+  <item nodeId="node-0x211330">
+    <command xml:space="preserve">take red mushroom</command>
+    <result xml:space="preserve">You try to squeeze your arm through the hole in the fallen oak tree, but fail to reach the mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2113a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2113a0">
+    <command xml:space="preserve">give squirrel acorn</command>
+    <result xml:space="preserve">The fuzzy squirrel snatches the acorn from your hand and eagerly stuffs it into its cheek. It darts quickly into the fallen oak tree nearby and returns seconds later with a small red mushroom.
+
+You take the small red mushroom from the squirrel and gently pat it on the head.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211410" />
+    </children>
+  </item>
+  <item nodeId="node-0x211410">
+    <command xml:space="preserve">walk east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211480" />
+    </children>
+  </item>
+  <item nodeId="node-0x211480">
+    <command xml:space="preserve">walknorth</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2114f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2114f0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Spooky Cave
+The radiance of your glowing marble lights the abysmal cave. The cave emits the soft crunches of your footsteps as you walk across some scattered grains of sand. The river appears to originate from a large rocky outcrop at the bottom of a shallow pool of water.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211560" />
+    </children>
+  </item>
+  <item nodeId="node-0x211560">
+    <command xml:space="preserve">examine outcrop</command>
+    <result xml:space="preserve">Many large boulders lie here at the bottom of the shallow pool. One jagged rock in particular stands out. You could probably push it aside.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2115d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2115d0">
+    <command xml:space="preserve">push rock aside</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211640" />
+    </children>
+  </item>
+  <item nodeId="node-0x211640">
+    <command xml:space="preserve">move rock</command>
+    <result xml:space="preserve">With great effort, you push the jagged rock over in the water, revealing the small green mushroom beneath it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2116b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2116b0">
+    <command xml:space="preserve">examine green mushroom</command>
+    <result xml:space="preserve">An emerald green mushroom. It appears to have spent quite some time between a rock and a hard place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211720" />
+    </children>
+  </item>
+  <item nodeId="node-0x211720">
+    <command xml:space="preserve">take green mushroom</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211790" />
+    </children>
+  </item>
+  <item nodeId="node-0x211790">
+    <command xml:space="preserve">walk south</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211800" />
+    </children>
+  </item>
+  <item nodeId="node-0x211800">
+    <command xml:space="preserve">walk south</command>
+    <result xml:space="preserve">
+Beneath The Rainbow
+You walk along the river to be met with a glorious rainbow at the edge of the waterfall. It shimmers with cool mist from the crashing waterfall.
+
+You can see eagles here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211870" />
+    </children>
+  </item>
+  <item nodeId="node-0x211870">
+    <command xml:space="preserve">examine rainbow</command>
+    <result xml:space="preserve">A magnificent rainbow shines in the sky above you. It&apos;s definitely a nice change of pace from the melancholy fog.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2118e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2118e0">
+    <command xml:space="preserve">examine waterfall</command>
+    <result xml:space="preserve">The impressive finale of the tranquil river&apos;s life. It crashes below in thunderous applause.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211950" />
+    </children>
+  </item>
+  <item nodeId="node-0x211950">
+    <command xml:space="preserve">walk north</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2119c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2119c0">
+    <command xml:space="preserve">walk north</command>
+    <result xml:space="preserve">
+Spooky Cave
+The radiance of your glowing marble lights the abysmal cave. The cave emits the soft crunches of your footsteps as you walk across some scattered grains of sand. The river appears to originate from a large rocky outcrop at the bottom of a shallow pool of water.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x211a30">
+    <command xml:space="preserve">examine poolk</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x211aa0">
+    <command xml:space="preserve">examine pool</command>
+    <result xml:space="preserve">Chilly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x211b10">
+    <command xml:space="preserve">examine sand</command>
+    <result xml:space="preserve">Small specks of sand litter the cave floor. Who knows how they could have gotten there?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x211b80">
+    <command xml:space="preserve">walk south</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x211bf0">
+    <command xml:space="preserve">walk west</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x211c60">
+    <command xml:space="preserve">walk west</command>
+    <result xml:space="preserve">
+Whistling Grove
+Odd trees with crescent-shaped trunks fill the grove. A small pile of twigs lies at the foot of one of the trees. There also appears to be a strange indent carved into the largest tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x211cd0">
+    <command xml:space="preserve">examine indent</command>
+    <result xml:space="preserve">A small hole carved into the side of the largest tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x211d40">
+    <command xml:space="preserve">climb tree</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x211db0">
+    <command xml:space="preserve">walk east</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x211e20">
+    <command xml:space="preserve">examine tall tree</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x211e90">
+    <command xml:space="preserve">examine towering tree</command>
+    <result xml:space="preserve">A gnarled, aged tree. You could probably climb this fairly easily.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211f00" />
+    </children>
+  </item>
+  <item nodeId="node-0x211f00">
+    <command xml:space="preserve">climb tree</command>
+    <result xml:space="preserve">
+Top of Towering Tree
+You teeter precariously on a thin branch at the top of the towering tree. Despite how high you are, you can&apos;t see much else besides other tree tops through the thick fog.
+
+To the left of you is a crooked branch just barely within arm&apos;s reach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x211f70">
+    <command xml:space="preserve">examine crooked branch</command>
+    <result xml:space="preserve">A small, crooked tree branch. On its end grows a small blue mushroom. How peculiar.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x211fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x211fe0">
+    <command xml:space="preserve">examine blue mushrooom</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine the small blue mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x212050" />
+    </children>
+  </item>
+  <item nodeId="node-0x212050">
+    <command xml:space="preserve">take blue mushroom</command>
+    <result xml:space="preserve">Oops. The mushroom just barely slips out of your grasp, falling gently through the fog and out of sight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2120c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2120c0">
+    <command xml:space="preserve">climb down tree</command>
+    <result xml:space="preserve">I only understood you as far as wanting to climb down.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x212130" />
+    </children>
+  </item>
+  <item nodeId="node-0x212130">
+    <command xml:space="preserve">climb down</command>
+    <result xml:space="preserve">You must name something more substantial.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2121a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2121a0">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x212210" />
+    </children>
+  </item>
+  <item nodeId="node-0x212210">
+    <command xml:space="preserve">examine leaves</command>
+    <result xml:space="preserve">A pile of nondescript leaves.
+
+In the pile of leaves is a small blue mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x212280" />
+    </children>
+  </item>
+  <item nodeId="node-0x212280">
+    <command xml:space="preserve">take blue mushroom</command>
+    <result xml:space="preserve"> Taken.
+
+The blue mushroom reminds you of the mushroom ring you saw in your backyard before ending up in this forest. Perhaps there&apos;s a connection?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2122f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2122f0">
+    <command xml:space="preserve">walk west</command>
+    <result xml:space="preserve">
+Whistling Grove
+Odd trees with crescent-shaped trunks fill the grove. A small pile of twigs lies at the foot of one of the trees. There also appears to be a strange indent carved into the largest tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x212360" />
+    </children>
+  </item>
+  <item nodeId="node-0x212360">
+    <command xml:space="preserve">walk east</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2123d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2123d0">
+    <command xml:space="preserve">walk east</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x212440" />
+    </children>
+  </item>
+  <item nodeId="node-0x212440">
+    <command xml:space="preserve">walk west</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2124b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2124b0">
+    <command xml:space="preserve">walk east</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+You can see a squirrel here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x212520" />
+    </children>
+  </item>
+  <item nodeId="node-0x212520">
+    <command xml:space="preserve">walk east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x212590" />
+    </children>
+  </item>
+  <item nodeId="node-0x212590">
+    <command xml:space="preserve">walk west</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x212600" />
+    </children>
+  </item>
+  <item nodeId="node-0x212600">
+    <command xml:space="preserve">examine ring</command>
+    <result xml:space="preserve">The mushrooms on the grass are growing in an uncanny circle. They appear to follow some sort of color pattern. It seems that the mushroom ring needs a blue, red, green, and yellow mushroom to be complete. If you find any mushrooms, you should probably put them in the ring.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x212670" />
+    </children>
+  </item>
+  <item nodeId="node-0x212670">
+    <command xml:space="preserve">put mushrooms in ring</command>
+    <result xml:space="preserve">(first taking the ring of mushrooms)
+
+That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2126e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2126e0">
+    <command xml:space="preserve">put red mushroom in ring</command>
+    <result xml:space="preserve">You put the small red mushroom into the ring of mushrooms.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x212750" />
+    </children>
+  </item>
+  <item nodeId="node-0x212750">
+    <command xml:space="preserve">put blue mushroom in ring</command>
+    <result xml:space="preserve">You put the small blue mushroom into the ring of mushrooms.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x2127c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2127c0">
+    <command xml:space="preserve">put green mushroom in ring</command>
+    <result xml:space="preserve">You put the small green mushroom into the ring of mushrooms.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+    <children>
+      <child nodeId="node-0x212830" />
+    </children>
+  </item>
+  <item nodeId="node-0x212830">
+    <command xml:space="preserve">put yellow mushroom in ring</command>
+    <result xml:space="preserve">You put the small yellow mushroom into the ring of mushrooms.
+
+The ring of mushrooms shimmers with a mystical white aura as the surrounding fog slowly dissipates. As the fog clears, you find yourself once again within the mushroom circle in your backyard.
+
+
+
+    *** You have won ***
+
+
+In that game you scored 4 out of a possible 0, in 79 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+  </item>
+  <item nodeId="node-0x2128a0">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Top of Towering Tree
+You teeter precariously on a thin branch at the top of the towering tree. Despite how high you are, you can&apos;t see much else besides other tree tops through the thick fog.
+
+To the left of you is a crooked branch just barely within arm&apos;s reach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="137">YES</temporary>
+    <children>
+      <child nodeId="node-0x212f30" />
+      <child nodeId="node-0x212910" />
+    </children>
+  </item>
+  <item nodeId="node-0x212910">
+    <command xml:space="preserve">examine crooked branch</command>
+    <result xml:space="preserve">A small, crooked tree branch. On its end grows a small blue mushroom. How peculiar.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x212980" />
+    </children>
+  </item>
+  <item nodeId="node-0x212980">
+    <command xml:space="preserve">take blue mushroom</command>
+    <result xml:space="preserve">Oops. The mushroom just barely slips out of your grasp, falling gently through the fog and out of sight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x2129f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2129f0">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. The forest appears to continue both east and west. There is a towering tree in the middle of the clearing. It seems almost mystical by nature.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x212a60" />
+    </children>
+  </item>
+  <item nodeId="node-0x212a60">
+    <command xml:space="preserve">x pile of leaves</command>
+    <result xml:space="preserve">A pile of nondescript leaves.
+
+In the pile of leaves is a small blue mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x212ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x212ad0">
+    <command xml:space="preserve">take blue mushroom</command>
+    <result xml:space="preserve"> Taken.
+
+The blue mushroom reminds you of the mushroom ring you saw in your backyard before ending up in this forest. Perhaps there&apos;s a connection?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x212b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x212b40">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Quiet Thicket
+A tranquil river flows slowly from a dark cave to the north toward a distant waterfall to the south. Several willow trees crowd the thicket, drooping toward the damp grass sadly. A hollow fallen oak tree also lays broken against the edge of the river.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x212bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x212bb0">
+    <command xml:space="preserve">x hollow fallen oak</command>
+    <result xml:space="preserve">In the hollow fallen oak tree is a small red mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x212c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x212c20">
+    <command xml:space="preserve">take red mushroom</command>
+    <result xml:space="preserve">You try to squeeze your arm through the hole in the fallen oak tree, but fail to reach the mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x212c90" />
+    </children>
+  </item>
+  <item nodeId="node-0x212c90">
+    <command xml:space="preserve">enter hollow fallen oak tree</command>
+    <result xml:space="preserve">You&apos;re far too big to fit in the tree. You can see a small red mushroom peeking out at you on the far inside of the tree.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x212d00" />
+    </children>
+  </item>
+  <item nodeId="node-0x212d00">
+    <command xml:space="preserve">eat small red mushroom</command>
+    <result xml:space="preserve">(first taking the small red mushroom)
+You try to squeeze your arm through the hole in the fallen oak tree, but fail to reach the mushroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x212d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x212d70">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Beneath The Rainbow
+You walk along the river to be met with a glorious rainbow at the edge of the waterfall. It shimmers with cool mist from the crashing waterfall. Majestic eagles can be seen flying nearby.
+
+You can see eagles here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x212de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x212de0">
+    <command xml:space="preserve">examine eagles</command>
+    <result xml:space="preserve">These majestic birds fly through the fine mist of the waterfall. A large black eagle appears to be carrying a small yellow object. Perhaps you should whistle at the eagle to get its attention?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x212e50" />
+    </children>
+  </item>
+  <item nodeId="node-0x212e50">
+    <command xml:space="preserve">whistle at eagle</command>
+    <result xml:space="preserve">The black eagle floats leisurely towards you, letting out a friendly screech before carefully dropping a small yellow mushroom in your outstretched palm. You place the mushroom into your bag.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x212ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x212ec0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a small yellow mushroom
+  a small blue mushroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="281">YES</temporary>
+  </item>
+  <item nodeId="node-0x212f30">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="137">YES</temporary>
+    <children>
+      <child nodeId="node-0x212fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x212fa0">
+    <command xml:space="preserve">climb down</command>
+    <result xml:space="preserve">
+Foggy Clearing
+This is the shady clearing you first woke up in. The white fog still appears to be rolling in steadily. There is a towering tree in the middle of the clearing. It seems almost mystical by nature. The forest appears to continue both to the east and to the west.
+
+Below it lies a simple pile of leaves. There is also a strange ring of mushrooms growing in the grass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="137">YES</temporary>
+    <children>
+      <child nodeId="node-0x213010" />
+    </children>
+  </item>
+  <item nodeId="node-0x213010">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Top of Towering Tree
+You teeter precariously on a thin branch at the top of the towering tree. Despite how high you are, you can&apos;t see much else besides other tree tops through the thick fog.
+
+To the left of you is a crooked branch just barely within arm&apos;s reach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="137">YES</temporary>
+    <children>
+      <child nodeId="node-0x213080" />
+    </children>
+  </item>
+  <item nodeId="node-0x213080">
+    <command xml:space="preserve">climb down tree</command>
+    <result xml:space="preserve">I only understood you as far as wanting to climb down.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="136">YES</temporary>
+  </item>
+  <item nodeId="node-0x3a5c60">
+    <command xml:space="preserve">climb tree</command>
+    <result xml:space="preserve">
+Top of Towering Tree
+You teeter precariously on a thin branch at the top of the towering tree. Despite how high you are, you can&apos;t see much else besides other tree tops through the thick fog. To the left of you is a crooked branch just barely within arm&apos;s reach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="426">YES</temporary>
+    <children>
+      <child nodeId="node-0x3a5cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3a5cb0">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart? </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="426">YES</temporary>
+    <children>
+      <child nodeId="node-0x20e050" />
+    </children>
+  </item>
+  <item nodeId="node-0x20e050">
+    <command xml:space="preserve">yes</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="425">YES</temporary>
+  </item>
+</Skein>
